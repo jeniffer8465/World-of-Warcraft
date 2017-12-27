@@ -1,0 +1,344 @@
+
+/*css reset*/
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd{
+	margin:0;
+	padding:0;
+}
+
+ul,li,ol{
+	list-style: none;
+
+}
+
+a{
+	text-decoration:none;
+}
+
+/*commen css*/
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+ .layout{
+ 	width:900px;
+ 	margin:0 auto;
+ }
+
+ /*page css*/
+
+ body{
+ 	font:12px/1.3 Arial;
+ 	background-color: #000;
+ }
+
+html,body{
+	height:100%;
+}
+ 
+#header {
+    background: url(https://i.loli.net/2017/11/13/5a08f84cbb47a.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+   background-size:cover;
+   overflow: hidden;
+}
+
+.layout{
+	width:1200px ;
+	margin:0 auto;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.navbar>li{
+	float:left;
+	border:1px solid;
+	heihgt:70px;
+    width:160px;
+    border:1px solid #3f2a22;
+    background-color: #261712;
+    border-left：none；
+}
+.navbar>li:first-child{
+	border-left: 1px solid #3f2a22;
+}
+.navbar a{
+	color:#f8b408;
+	display:block;
+	height:70px;
+	line-height:70px;
+	font-size:16px;
+	font-weight:bold;
+	text-align: center;
+} 
+
+.navbar .logo{
+	width:180px;
+}
+
+.navbar{
+	margin-top:40px;
+}
+
+#content{
+	background-color:#120d0a;
+	border-top:2px solid #030500;
+	padding-top: 40px;
+	padding-bottom: 70px;
+	border: 2px solid blue sky;
+
+}
+.navbar .logo img {
+   
+    position: relative;
+    top: -40px;
+     left: -30px;
+}
+
+#content .item:hover h3{
+	color:#fff;
+}
+#content .item:hover{
+     top:-10px  ;
+     
+} 
+
+#content .item:hover a{
+	color:#fff;
+}
+
+#content .item  h3{
+   background-color:#251812;
+   color:#f8b700;
+   font-weight:blod;
+   font-size:16px;
+   text-align:center;
+   line-height:70px;
+}
+
+#content .item{
+	width:288px; 
+	float:left;
+	position:relative;
+	margin-left:16px;
+	transition:all 0.3s ;
+}
+
+#content .container{
+  margin-left:-16px;
+
+}
+.business{
+	width:1300px;
+	margin:0 auto;
+		
+		padding-top: 60px;
+	
+
+}
+
+ .business clearfix .logos{
+ 	width :330px;
+ float: left;
+ 	border:1px solid pink;
+ 	font-size: 14px;
+color:#9a9a9a;
+
+ } 
+
+  .business .info{
+   float: right;
+ margin-left: 380px;
+ 
+  margin-top:200px;
+  }
+ .business .contact{
+
+   margin-top:-6%;
+ }
+ .business .contact a{
+     display:inline-block;
+     width:30px;
+     height:30px;
+     
+     background:url("https://i.loli.net/2017/12/04/5a2497b7e67ce.png") 0 0 no-repeat ; 
+     vertical-align: top;
+
+   
+  } 
+.kefu,.fankui,.join{
+   font-size:16px;
+   color:#fff;
+   margin-left:10px;
+   margin-right:40px;
+ }
+
+ .business .contact :nth-of-type(2){
+	background-position: -30px 0;
+}
+
+ .business .contact :nth-of-type(3){
+ 	background-position:  0 -30px;
+ }
+.parters a{
+  display: inline-block;
+  vertical-align: top;
+}
+ 
+
+
+.business .parters{
+	margin-top:120px;
+	
+
+}
+
+.business .logo-wangyi{
+vertical-align: top;
+	margin-left: 40px;
+	
+  margin-top:-8%;
+}
+.business .logo-bliz{
+	margin-left: 40px;
+	
+ margin-top:-8%;
+}
+.info{
+position:absolute;
+
+left:520px;
+top:110%;
+}
+.info .info-partner{
+	text-align:right;
+	color:#fff;
+   
+	
+
+
+
+}
+.info-partner p{
+position:absolute;
+top:260%;
+}
+.info-partner a{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:132px;
+	margin-top: -30%;
+  background-color:#0b0b0b;
+}
+
+.info-partner a img{
+ position:absolute;
+left:60%;
+top:230%;
+}
+.info-partner span{
+position:absolute;
+top:268%;
+left:165%;
+color:#b97500;
+}
+.info-partner span:hover {
+	color:#fff;
+}
+.suggestion{
+	
+	margin-top:30px;
+	padding-top: 30px;
+	padding-bottom:60px;
+	
+	width:100%;
+	text-align: center;
+	color:#fff;
+	
+}
+.suggestion layout>p{
+	font-size: 16px;;
+   
+}
+
+.tiaokuan{
+	
+    text-align:left;
+    float:right;
+    margin-top: -13%;
+    padding-left:6%;
+    width:835px;
+   
+    font-size: 16px;
+color: 3b3b09a;
+}
+.tiaokuan p{
+	 color: #464443;
+	 font-weight:400;
+}
+.tiaokuan a{
+	  color: #ccc;
+}
+.tiaokuan-contact{
+	
+	text-align: left;
+	font-size:12px;
+	color:#ccc;
+}
+.tiaokuan-contact span{
+	padding:0 30px ;
+}
+
+.tiaokuan-contact a .clause{
+	display: inline-block;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+}
+.tiaokuan-contact .key{
+	  color: #4e371b;
+}
+.tiaokuan-contact .key:hover {
+color:#fff;
+}
+.tiaokuan-icon{
+	
+	
+	float:left;
+}
+
+
+.tiaokuan-icon a{
+	margin-right:20px;
+
+}
+
+.tiaokuan-icon a img{
+width:30px;
+height:30px;
+margin-top:-5px;
+}
+.tiaokuan-tishi{
+	
+	
+    margin-top:5px;
+  color:#454b31;
+}
+.tiaokuan-tishi .jianhu{
+color: #454b31;
+	 font-weight:400;
+}
+
+.tiaokuan-contact a :hover{
+	color:#fff;
+}
+.jianhu:hover{
+	color:#fff;
+}
+
+.sug{
+  color:#454b31;
+}
